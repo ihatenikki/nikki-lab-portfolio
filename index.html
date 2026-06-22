@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio da Nikki Lab: design, fotografia e produção de vídeo."
+    />
+    <title>Nikki Lab | Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="#top" aria-label="Ir para o topo">
+        <img src="assets/nikki-logo-mark.png" alt="Nikki Lab" />
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navegação principal" data-nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- Hero: altere a imagem de fundo em .hero-media no arquivo style.css. -->
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-media" data-parallax aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Design / Foto / Vídeo</p>
+          <h1 id="hero-title">Nikki Lab</h1>
+          <p class="hero-tagline">
+            Identidade visual, fotografia e social media com estética preta,
+            contraste forte e verde em alta voltagem.
+          </p>
+          <a class="cta-link" href="#portfolio">Ver portfólio</a>
+          <div class="hero-signature" aria-label="Perfil Nikki Lab">
+            <span>@nikk1lab</span>
+            <span>Designer & Social Media</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-grid" id="sobre" aria-labelledby="about-title">
+        <div class="section-kicker reveal">Sobre</div>
+        <div class="about-copy reveal">
+          <h2 id="about-title">Um laboratório visual de imagem, marca e presença.</h2>
+          <p>
+            A Nikki Lab (@nikk1lab) reúne design, fotografia e produção de vídeo
+            para construir imagens com intenção. O trabalho mistura retrato,
+            direção visual, edição e peças para social media em uma linguagem
+            escura, limpa e reconhecível.
+          </p>
+          <p>
+            Este espaço foi pensado como galeria e cartão de presença: uma base
+            para organizar ensaios, editoriais, bastidores, campanhas, identidades
+            e projetos autorais sem perder a pegada neon da marca.
+          </p>
+        </div>
+      </section>
+
+      <!-- A galeria é preenchida automaticamente pelo array portfolioImages em script.js. -->
+      <section
+        class="portfolio"
+        id="portfolio"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="section-grid portfolio-heading">
+          <div class="section-kicker reveal">Portfólio</div>
+          <div class="reveal">
+            <h2 id="portfolio-title">Fotos em destaque</h2>
+            <p>
+              Galeria responsiva com carregamento leve. As imagens atuais usam a
+              estética da marca. Para trocar ou adicionar trabalhos, edite apenas
+              a lista <strong>portfolioImages</strong> no arquivo
+              <strong>script.js</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery" data-gallery aria-live="polite"></div>
+      </section>
+
+      <section
+        class="contact section-grid"
+        id="contato"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-kicker reveal">Contato</div>
+        <div class="contact-content reveal">
+          <h2 id="contact-title">Vamos criar algo visualmente memorável.</h2>
+          <p>
+            Para projetos, colaborações ou direção visual, fale com a Nikki Lab
+            pelos canais abaixo.
+          </p>
+
+          <div class="contact-links" aria-label="Links de contato">
+            <a href="https://www.instagram.com/nikk1lab/" target="_blank" rel="noreferrer">
+              Instagram @nikk1lab
+            </a>
+            <a href="mailto:contato@nikkilab.com">contato@nikkilab.com</a>
+            <a href="https://www.behance.net/" target="_blank" rel="noreferrer">
+              Behance
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Nikki Lab</span>
+      <span>© <span data-year></span> Todos os direitos reservados.</span>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
