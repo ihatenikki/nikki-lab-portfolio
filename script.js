@@ -23,6 +23,18 @@ const portfolioImages = [
     layout: "large",
   },
   {
+    title: "Conteúdo para Redes Sociais",
+    category: "Social Media",
+    src: "assets/duvido-voce-resistir.jpg",
+    alt: "Campanha para redes sociais",
+  },
+  {
+    title: "Conteúdo para Redes Sociais",
+    category: "Social Media",
+    src: "assets/hoje-e-dia-de-pizza.jpg",
+    alt: "Post para redes sociais",
+  },
+  {
     title: "Post Stories para Loja",
     category: "Design",
     src: "assets/neto-store.jpg",
@@ -30,17 +42,10 @@ const portfolioImages = [
     layout: "large",
   },
   {
-    title: "Campanha Institucional",
-    category: "Social Media",
-    src: "assets/matriculasabertas.jpg",
-    alt: "Arte para campanha de matriculas",
-    layout: "wide",
-  },
-  {
-    title: "Design para Uniforme Escolar",
+    title: "Design de Camisa Personalizada",
     category: "Design",
-    src: "assets/camisa-gama.jpg",
-    alt: "Projeto de camisa",
+    src: "assets/segundao-projeto.jpg",
+    alt: "Projeto grafico",
   },
   {
     title: "Estampa para Evento Escolar",
@@ -55,28 +60,23 @@ const portfolioImages = [
     alt: "Verso da camisa Primeirao",
   },
   {
-    title: "Conteúdo para Redes Sociais",
-    category: "Social Media",
-    src: "assets/duvido-voce-resistir.jpg",
-    alt: "Campanha para redes sociais",
+    title: "Design para Uniforme Escolar",
+    category: "Design",
+    src: "assets/camisa-gama.jpg",
+    alt: "Projeto de camisa",
   },
   {
-    title: "Conteúdo para Redes Sociais",
+    title: "Campanha Institucional",
     category: "Social Media",
-    src: "assets/hoje-e-dia-de-pizza.jpg",
-    alt: "Post para redes sociais",
+    src: "assets/matriculasabertas.jpg",
+    alt: "Arte para campanha de matriculas",
+    layout: "wide",
   },
   {
     title: "Identidade para Turma",
     category: "Branding",
     src: "assets/logo-terceirao.jpg",
     alt: "Logo Terceirao",
-  },
-  {
-    title: "Design de Camisa Personalizada",
-    category: "Design",
-    src: "assets/segundao-projeto.jpg",
-    alt: "Projeto grafico",
   },
 ];
 
