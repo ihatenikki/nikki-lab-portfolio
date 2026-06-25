@@ -1,17 +1,15 @@
-// Troque, remova ou adicione fotos nesta lista para atualizar a galeria.
-// Use arquivos locais como "assets/minha-foto.jpg" ou URLs completas.
 document.documentElement.classList.add("js-enabled");
 
 const portfolioImages = [
   {
-    title: "Perfil Nikki Lab",
+    title: "Identidade da Marca",
     category: "Identidade",
     src: "assets/nikki-hero.png",
-    alt: "Retrato do criador da Nikki Lab com iluminação verde neon",
+    alt: "Retrato meu com iluminação verde neon",
     layout: "large",
   },
   {
-    title: "Logo Nikki Lab",
+    title: "Logotipo Nikki Lab",
     category: "Branding",
     src: "assets/nikki-logo-card.png",
     alt: "Logo branca da Nikki Lab sobre fundo preto texturizado",
@@ -23,6 +21,62 @@ const portfolioImages = [
     src: "assets/nikki-social-media.png",
     alt: "Fotógrafo segurando câmera com lettering social media em verde",
     layout: "large",
+  },
+  {
+    title: "Post Stories para Loja",
+    category: "Design",
+    src: "assets/neto-store.jpg",
+    alt: "Projeto gráfico para a Neto Store",
+    layout: "large",
+  },
+  {
+    title: "Campanha Institucional",
+    category: "Social Media",
+    src: "assets/matriculasabertas.jpg",
+    alt: "Arte para campanha de matrículas",
+    layout: "wide",
+  },
+  {
+    title: "Design para Uniforme Escolar",
+    category: "Design",
+    src: "assets/camisa-gama.jpg",
+    alt: "Projeto de camisa",
+  },
+  {
+    title: "Estampa para Evento Escolar",
+    category: "Design",
+    src: "assets/camisa-primeirao.jpg",
+    alt: "Projeto Primeirão",
+  },
+  {
+    title: "Verso de Uniforme Personalizado",
+    category: "Social Media",
+    src: "assets/camisa-primeiraoverso.jpg",
+    alt: "Verso da camisa Primeirão",
+  },
+  {
+    title: "Conteúdo para Redes Sociais",
+    category: "Social Media",
+    src: "assets/duvido-voce-resistir.jpg",
+    alt: "Campanha para redes sociais",
+  },
+  {
+    title: "Post Dia da Pizza",
+    category: "Social Media",
+    src: "assets/hoje-e-dia-de-pizza.jpg",
+    alt: "Post para redes sociais",
+  },
+  {
+    title: "Identidade para Turma",
+    category: "Branding",
+    src: "assets/logo-terceirao.jpg",
+    alt: "Logo Terceirão",
+  },
+  {
+    title: "Design de Camisa Personalizada",
+    category: "Design",
+    src: "assets/segundao-projeto.jpg",
+    alt: "Projeto gráfico",
   },
 ];
 
@@ -36,7 +90,7 @@ const year = document.querySelector("[data-year]");
 
 year.textContent = new Date().getFullYear();
 
-// Gera os cards da galeria a partir da lista portfolioImages acima.
+// gera os cards da galeria a partir da lista portfolioImages em cimaa
 portfolioImages.forEach((image, index) => {
   const card = document.createElement("article");
   card.className = `gallery-card reveal ${image.layout ? `is-${image.layout}` : ""}`;
@@ -53,7 +107,7 @@ portfolioImages.forEach((image, index) => {
   gallery.appendChild(card);
 });
 
-// Menu mobile com fechamento automático ao clicar em uma âncora.
+// menu mobile com fechamento automático ao clicar em uma âncora
 const setMenuState = (isOpen) => {
   nav.classList.toggle("is-open", isOpen);
   navToggle.setAttribute("aria-expanded", String(isOpen));
@@ -70,7 +124,7 @@ nav.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => setMenuState(false));
 });
 
-// Revela elementos suavemente quando entram na área visível.
+// revela elementos suavemente
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
     (entries) => {
@@ -93,7 +147,7 @@ if ("IntersectionObserver" in window) {
   });
 }
 
-// Ajustes visuais no scroll: header compacto e parallax leve no hero.
+// ajustes visuais no scroll, header compacto e parallax no hero
 const updateScrollEffects = () => {
   const scrollY = window.scrollY;
   header.classList.toggle("is-scrolled", scrollY > 24);
