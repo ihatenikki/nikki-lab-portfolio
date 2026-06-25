@@ -5,21 +5,21 @@ const portfolioImages = [
     title: "Identidade da Marca",
     category: "Identidade",
     src: "assets/nikki-hero.png",
-    alt: "Retrato meu com iluminação verde neon",
+    alt: "Eu com iluminação verde neon",
     layout: "large",
   },
   {
     title: "Logotipo Nikki Lab",
     category: "Branding",
     src: "assets/nikki-logo-card.png",
-    alt: "Logo branca da Nikki Lab sobre fundo preto texturizado",
+    alt: "Logo branca Nikki Lab sobre fundo preto texturizado",
     layout: "wide",
   },
   {
     title: "Social Media",
     category: "Produção",
     src: "assets/nikki-social-media.png",
-    alt: "Fotógrafo segurando câmera com lettering social media em verde",
+    alt: "Eu segurando câmera com lettering social media em verde",
     layout: "large",
   },
   {
@@ -33,7 +33,7 @@ const portfolioImages = [
     title: "Campanha Institucional",
     category: "Social Media",
     src: "assets/matriculasabertas.jpg",
-    alt: "Arte para campanha de matrículas",
+    alt: "Arte para campanha de matriculas",
     layout: "wide",
   },
   {
@@ -46,13 +46,13 @@ const portfolioImages = [
     title: "Estampa para Evento Escolar",
     category: "Design",
     src: "assets/camisa-primeirao.jpg",
-    alt: "Projeto Primeirão",
+    alt: "Projeto Primeirao",
   },
   {
     title: "Verso de Uniforme Personalizado",
     category: "Social Media",
     src: "assets/camisa-primeiraoverso.jpg",
-    alt: "Verso da camisa Primeirão",
+    alt: "Verso da camisa Primeirao",
   },
   {
     title: "Conteúdo para Redes Sociais",
@@ -61,7 +61,7 @@ const portfolioImages = [
     alt: "Campanha para redes sociais",
   },
   {
-    title: "Post Dia da Pizza",
+    title: "Conteúdo para Redes Sociais",
     category: "Social Media",
     src: "assets/hoje-e-dia-de-pizza.jpg",
     alt: "Post para redes sociais",
@@ -70,13 +70,13 @@ const portfolioImages = [
     title: "Identidade para Turma",
     category: "Branding",
     src: "assets/logo-terceirao.jpg",
-    alt: "Logo Terceirão",
+    alt: "Logo Terceirao",
   },
   {
     title: "Design de Camisa Personalizada",
     category: "Design",
     src: "assets/segundao-projeto.jpg",
-    alt: "Projeto gráfico",
+    alt: "Projeto grafico",
   },
 ];
 
