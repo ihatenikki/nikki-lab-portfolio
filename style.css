@@ -102,8 +102,8 @@ button {
   position: relative;
   z-index: 22;
   display: flex;
-  width: 118px;
-  height: 48px;
+  width: 160px; /* aumentei de 118px para 160px para deixar a logo maior */
+  height: 60px; /* ajustado proporcionalmente para dar mais espaço */
   align-items: center;
 }
 
@@ -111,7 +111,8 @@ button {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.18));
+  /* aumentei a opacidade do brilho de 0.18 para 0.8 e o espalhamento de 8px para 12px */
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8)); 
 }
 
 .nav-toggle {
