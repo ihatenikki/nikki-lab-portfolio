@@ -601,6 +601,32 @@ h2 {
   text-transform: uppercase;
 }
 
+/* Assinatura discreta, com area de toque acessivel no celular. */
+.footer-credit {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.footer-credit a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  transition: color 220ms ease;
+}
+
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
+  color: var(--neon);
+}
+
+.footer-credit a:focus-visible {
+  outline: 1px solid var(--neon);
+  outline-offset: 3px;
+}
+
 .reveal {
   opacity: 1;
   transform: none;
@@ -682,6 +708,7 @@ h2 {
 
   .site-footer {
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
