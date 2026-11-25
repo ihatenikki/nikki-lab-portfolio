@@ -799,6 +799,87 @@ h2 {
   }
 }
 
+/* Desktop: o menu deixa de herdar a camada de blur e o estado oculto mobile. */
+@media (min-width: 900px) {
+  .site-header {
+    background: rgba(0, 0, 0, 0.92);
+    backdrop-filter: none;
+  }
+
+  .site-nav {
+    align-items: center;
+    backdrop-filter: none;
+  }
+
+  .site-nav a {
+    min-height: 44px;
+    opacity: 1;
+    transform: none;
+  }
+
+  .brand-mark img {
+    filter: none;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: max(650px, 94svh);
+    padding: 8rem max(3rem, calc((100% - 1180px) / 2)) 5rem;
+    align-items: center;
+  }
+
+  .hero-content {
+    width: 55%;
+    max-width: 640px;
+  }
+
+  .hero h1 {
+    font-size: 8rem;
+    line-height: 0.88;
+  }
+
+  .hero-signature {
+    display: grid;
+    width: fit-content;
+  }
+
+  /* Recorte da metade direita da arte original: exclui o selo incorporado.
+     A foto original e a composicao mobile permanecem intactas. */
+  .hero-media {
+    inset: 0 max(2rem, calc((100% - 1180px) / 2)) auto auto;
+    width: auto;
+    height: 130%;
+    aspect-ratio: 2 / 5;
+    margin: 0;
+    background: url("assets/nikki-hero.png") right top / auto 100% no-repeat;
+    opacity: 1;
+    mask-image: linear-gradient(to right, transparent, #000 18%, #000 88%, transparent);
+    transform: none !important;
+    will-change: auto;
+  }
+
+  .hero::after {
+    height: 20%;
+  }
+
+  .about-copy,
+  .contact-content {
+    grid-template-columns: minmax(0, 1fr);
+    min-width: 0;
+  }
+
+  .section-grid h2 {
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero h1 {
+    font-size: 9rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
