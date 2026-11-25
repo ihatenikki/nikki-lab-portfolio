@@ -4,6 +4,8 @@ Portfólio de Nicolas Melo, com trabalhos de design, identidade visual, fotograf
 
 [Acessar o portfólio](https://ihatenikki.github.io/nikki-lab-portfolio/) · [TRELLA Group](https://trellagroup.com.br/)
 
+<img src="docs/nikki-lab-mobile.webp" alt="Captura real da versão mobile do Nikki Lab" width="360" />
+
 ## O projeto
 
 Site estático desenvolvido com HTML, CSS e JavaScript, com navegação por seções, galeria de trabalhos e links de contato. A identidade visual combina preto e verde, com animações de entrada e efeito de parallax.
