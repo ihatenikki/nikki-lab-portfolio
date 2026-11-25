@@ -1,21 +1,7 @@
-# Security Policy
+# Segurança
 
-## Supported Versions
+Este repositório contém o site estático Nikki Lab. A versão publicada acompanha a branch `main`; o projeto não mantém uma matriz de versões com suporte separado.
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Problemas de navegação ou links podem ser descritos nas issues do repositório, sem incluir dados pessoais ou credenciais.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Se encontrar uma possível falha que envolva dados sensíveis, inicie o contato pelo [canal oficial da TRELLA Group](https://trellagroup.com.br/contato). Descreva primeiro o problema de forma geral para combinar o envio dos detalhes. Não publique senhas, tokens ou dados de terceiros em issues, comentários ou capturas de tela.

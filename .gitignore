@@ -1,0 +1,30 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Ferramentas e dependências locais
+node_modules/
+.idea/
+.vscode/
+.netlify/
+
+# Arquivos temporários e backups
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+backups/
+backup/
+coverage/
+playwright-report/
+test-results/
